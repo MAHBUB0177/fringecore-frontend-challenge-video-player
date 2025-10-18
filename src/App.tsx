@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 
-const VideoPlayer = () => {
+const App = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -190,4 +190,4 @@ const VideoPlayer = () => {
   );
 };
 
-export default VideoPlayer;
+export default App;
